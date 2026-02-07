@@ -11,8 +11,7 @@ public class EmpleadoPorHoras extends Empleado {
     /**
      * Constructor del empleado por horas.
      */
-    public EmpleadoPorHoras(String nombre, String apellido, String NSS,
-                            int horasTrabajadas, int sueldoPorHora) {
+    public EmpleadoPorHoras(String nombre, String apellido, String NSS, int horasTrabajadas, int sueldoPorHora) {
         super(nombre, apellido, NSS);
         this.horasTrabajadas = horasTrabajadas;
         this.sueldoPorHora = sueldoPorHora;

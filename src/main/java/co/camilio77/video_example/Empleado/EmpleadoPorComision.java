@@ -11,8 +11,7 @@ public class EmpleadoPorComision extends Empleado {
     /**
      * Constructor del empleado por comisión.
      */
-    public EmpleadoPorComision(String nombre, String apellido, String NSS,
-                               int ventasBrutas, int tarifaComision) {
+    public EmpleadoPorComision(String nombre, String apellido, String NSS, int ventasBrutas, int tarifaComision) {
         super(nombre, apellido, NSS);
         this.ventasBrutas = ventasBrutas;
         this.tarifaComision = tarifaComision;

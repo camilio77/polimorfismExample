@@ -23,27 +23,21 @@ public class App {
     public static void main(String[] args) {
 
         // Creación de un objeto EmpleadoPorHoras usando una referencia de tipo Empleado
-        Empleado empleadoPorHoras = new EmpleadoPorHoras(
-                "Camilio", "Lopez", "123456789", 40, 20
-        );
+        Empleado empleadoPorHoras = new EmpleadoPorHoras("Camilio", "Lopez", "123456789", 40, 20);
         System.out.println("Objeto EmpleadoPorHoras creado:\n"
                 + "Nombre: Camilio Lopez\n"
                 + "Horas trabajadas: 40\n"
                 + "Valor por hora: 20");
 
         // Creación de un empleado por comisión
-        Empleado empleadoPorComision = new EmpleadoPorComision(
-                "Ana", "Gomez", "987654321", 5000, 10
-        );
+        Empleado empleadoPorComision = new EmpleadoPorComision( "Ana", "Gomez", "987654321", 5000, 10);
         System.out.println("\nObjeto EmpleadoPorComision creado:\n"
                 + "Nombre: Ana Gomez\n"
                 + "Ventas totales: 5000\n"
                 + "Tarifa de comision: 10");
 
         // Creación de un empleado con salario base más comisión
-        Empleado empleadoBaseMasComision = new EmpleadoBaseMasComision(
-                "Luis", "Martinez", "456789123", 3000, 5, 1000
-        );
+        Empleado empleadoBaseMasComision = new EmpleadoBaseMasComision("Luis", "Martinez", "456789123", 3000, 5, 1000);
         System.out.println("\nObjeto EmpleadoBaseMasComision creado:\n"
                 + "Nombre: Luis Martinez\n"
                 + "Ventas totales: 3000\n"
@@ -51,9 +45,7 @@ public class App {
                 + "Salario base: 1000");
 
         // Creación de un empleado asalariado
-        Empleado empleadoAsalariado = new EmpleadoAsalariado(
-                "Maria", "Rodriguez", "789123456", 800
-        );
+        Empleado empleadoAsalariado = new EmpleadoAsalariado("Maria", "Rodriguez", "789123456", 800);
         System.out.println("\nObjeto EmpleadoAsalariado creado:\n"
                 + "Nombre: Maria Rodriguez\n"
                 + "Salario semanal: 800");

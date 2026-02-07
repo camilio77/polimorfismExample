@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="co.camilio77.video_example.AppTest" time="0.073" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="co.camilio77.video_example.AppTest" time="0.034" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="24"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="CO"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-24\bin"/>
-    <property name="sun.java.command" value="C:\Users\camil\AppData\Local\Temp\surefire342703068453587472\surefirebooter15450052385595892989.jar C:\Users\camil\AppData\Local\Temp\surefire342703068453587472 2026-02-05T13-32-29_675-jvmRun1 surefire14833493251271163039tmp surefire_018259325857487208786tmp"/>
+    <property name="sun.java.command" value="C:\Users\camil\AppData\Local\Temp\surefire14236762881536616673\surefirebooter12219406118070480618.jar C:\Users\camil\AppData\Local\Temp\surefire14236762881536616673 2026-02-06T20-03-13_128-jvmRun1 surefire10585094718512084285tmp surefire_05067331717921197495tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="co.camilio77.video_example.AppTest#shouldAnswerWithTrue"/>
     <property name="surefire.test.class.path" value="C:\Users\camil\Downloads\CODIGOS\Java\video1lenin\target\test-classes;C:\Users\camil\Downloads\CODIGOS\Java\video1lenin\target\classes;C:\Users\camil\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\camil\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\camil\AppData\Local\Temp\surefire342703068453587472\surefirebooter15450052385595892989.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\camil\AppData\Local\Temp\surefire14236762881536616673\surefirebooter12219406118070480618.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="24.0.1+9-30"/>
@@ -60,5 +60,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="68.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="co.camilio77.video_example.AppTest" time="0.015"/>
+  <testcase name="shouldAnswerWithTrue" classname="co.camilio77.video_example.AppTest" time="0.007"/>
 </testsuite>
